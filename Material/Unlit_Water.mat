@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_Water
+  m_Shader: {fileID: 4800000, guid: 9d911b6256a91c5479e961998776d3a1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: aeb956bb7e578fa4daaf53e1f63b720d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a57eda5ab99841544a2ece6a953e1116, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NomralMap:
+        m_Texture: {fileID: 2800000, guid: c3e062aba80dbaf4ebe7408fff3da7fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _EnableWave: 0
+    - _FlowOffset: 0
+    - _FlowStrength: 1
+    - _Gloss: 8
+    - _INVERT_NORMAL_Y: 0
+    - _MaxDepth: 0.5
+    - _Metallic: 0
+    - _NormalMap_Intensity: 1
+    - _RandomDirection: 0.5
+    - _Speed: 1
+    - _SteepnessMax: 3.61
+    - _SteepnessMin: 0.1
+    - _TessellationEdge: 1
+    - _TessellationEdgeLength: 0.5
+    - _TessellationInside: 1
+    - _Tiling: 1.03
+    - _UJump: 0.25
+    - _VJump: 0.25
+    - _WaterSpeed: 0.1
+    - _WaveCount: 32
+    - _WaveLengthMax: 1
+    - _WaveLengthMin: 0.5
+    - _WaveSpeed: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Direction: {r: 1, g: 0, b: 0, a: 0}
+    - _WaterColor1: {r: 0, g: 0, b: 1, a: 1}
+    - _WaterColor2: {r: 0, g: 0, b: 1, a: 1}
+  m_BuildTextureStacks: []
